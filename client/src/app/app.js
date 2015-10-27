@@ -13,7 +13,7 @@
       .state('root', {
         views: {
           'header': {
-            template: '<div>Header</div>',
+            template: '<app-header></app-header>',
           },
           'footer': {
             template: '<div>Footer</div>',
@@ -35,7 +35,8 @@
       'home',
       'common.filters.uppercase',
       'common.interceptors.http',
-      'templates'
+      'templates',
+      'appHeaderComponent'
     ])
     .config(config)
     .run(run)
