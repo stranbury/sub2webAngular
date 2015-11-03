@@ -36,7 +36,8 @@
       'common.filters.uppercase',
       'common.interceptors.http',
       'templates',
-      'appHeaderComponent'
+      'appHeaderComponent',
+      'moviePopular'
     ])
     .config(config)
     .run(run)
